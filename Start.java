@@ -1,26 +1,15 @@
-import java.util.Scanner;
+		import java.util.Scanner;
 
 public class Start {
-
-	public static void main(String[] args) {
-		String Expression;
-		boolean active = true;
-		System.out.println("Enter expression here (type 'exit' to quit):");
-		Scanner scanIn;
-		
-		while (active) {
-			scanIn = new Scanner(System.in);
-			Expression = scanIn.nextLine();
-
-			if (Expression.equals("exit")) {
-				scanIn.close();
-				active = false;
-			} else {
-				System.out.println(Calculator.Run(Expression));
-			}
-
-		}
-
-	}
-
+    public static void main(String[] args) {
+        // Postavljanje varijabli i skenera za unos
+        while (active) {
+            // Unos izraza
+            if (Expression.equals("exit")) {
+                // Zatvaranje skenera ako se unese "exit"
+            } else {
+                // Pokretanje kalkulatora za uneseni izraz
+            }
+        }
+    }
 }
